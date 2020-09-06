@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/quizTitle"
         android:layout_width="267dp"
-        android:layout_height="75dp"
+        android:layout_height="100dp"
         android:layout_marginTop="56dp"
         android:text="@string/quiz_title"
         android:textSize="32sp"
@@ -37,6 +37,4 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/table"
         app:layout_constraintVertical_bias="0.279" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
