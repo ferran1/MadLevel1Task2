@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="120dp"
+    android:layout_marginStart="100dp">
+
+    <TableRow android:id="@+id/first_row_header">
+
+        <TextView
+            android:text="@string/a"
+            android:layout_width="75dp"
+            android:layout_height="37dp"
+            android:textStyle="bold"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="69dp"
+            android:layout_height="37dp"
+            android:text="@string/b"
+            android:textStyle="bold"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="37dp"
+            android:text="@string/a_b"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+    <TableRow android:id="@+id/second_row"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:text="@string/t"
+            android:layout_width="69dp"
+            android:layout_height="37dp"
+            android:textSize="35sp" />
+
+        <TextView
+            android:text="@string/t"
+            android:layout_width="69dp"
+            android:layout_height="37dp"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/first_input"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:autofillHints="" />
+
+    </TableRow>
+
+    <TableRow android:id="@+id/third_row">
+        <TextView
+            android:text="@string/t"
+            android:layout_width="69dp"
+            android:layout_height="37dp"
+            android:textSize="35sp" />
+
+        <TextView
+            android:text="@string/f"
+            android:layout_width="69dp"
+            android:layout_height="37dp"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/second_input"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:autofillHints="" />
+
+    </TableRow>
+
+    <TableRow android:id="@+id/fourth_row">
+        <TextView
+            android:text="@string/f"
+            android:layout_width="69dp"
+            android:layout_height="37dp"
+            android:textSize="35sp" />
+
+        <TextView
+            android:text="@string/t"
+            android:layout_width="69dp"
+            android:layout_height="37dp"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/third_input"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:autofillHints="" />
+
+    </TableRow>
+
+    <TableRow android:id="@+id/fifth_row">
+        <TextView
+            android:text="@string/f"
+            android:layout_width="69dp"
+            android:layout_height="37dp"
+            android:textSize="35sp" />
+
+        <TextView
+            android:text="@string/f"
+            android:layout_width="69dp"
+            android:layout_height="37dp"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/fourth_input"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:autofillHints="" />
+    </TableRow>
+
+
+</TableLayout>
